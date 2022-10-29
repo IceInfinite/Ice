@@ -5,7 +5,12 @@
 
 extern Ice::Application* Ice::CreateApplication();
 
-int main() {
+int main(int argc, char** argv) {
+	Ice::Log::Init();
+	ICE_CORE_WARN("Initialize log");
+	int a = 1;
+	ICE_INFO("Hello, {}", a);
+
 	auto app = Ice::CreateApplication();
 	app->Run();
 	delete app;

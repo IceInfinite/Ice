@@ -3,7 +3,7 @@
 
 //For use Ice/Application.h
 #include "Ice/Application.h"
-
+#include "Ice/Log.h"
 
 // ------Entry Point----------
 #include "Ice/EntryPoint.h"

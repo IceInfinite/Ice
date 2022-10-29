@@ -1,0 +1,3 @@
+[submodule "Ice/third_party/spdlog"]
+	path = Ice/third_party/spdlog
+	url = https://github.com/gabime/spdlog
